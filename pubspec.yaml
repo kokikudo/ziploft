@@ -56,7 +56,18 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
-
+  assets:
+    - assets/
+    - assets/Logos/Ziploft-White.png
+    - assets/Logos/Ziploft-Color.png
+    - assets/iOS/Pullup-bar.png
+    - assets/iOS/Pull-up-bar.png
+    - assets/Photos/deborah-cortelazzi-615800-unsplash.jpg
+    - assets/Photos/naomi-hebert-188443-unsplash.jpg
+    - assets/Indicator/
+    - assets/Button/
+    - assets/Icon/Amenities/
+    - assets/Icon/
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
@@ -73,6 +84,15 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-Medium.ttf
+        - asset: fonts/Poppins-Regular.ttf
+        - asset: fonts/Poppins-SemiBold.ttf
+    - family: Rubik
+      fonts:
+        - asset: fonts/Rubik-VariableFont_wght.ttf
   # fonts:
   #   - family: Schyler
   #     fonts:
